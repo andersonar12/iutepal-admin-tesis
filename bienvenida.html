@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport"
+		content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<title>Bienvenida</title>
+
+	<link rel="stylesheet" href="css/estilos.css">
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="shortcut icon" type="image/x-icon" href="images/favicon.png">
+	<script src="js/jquery-1.11.3.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="engine1/style.css" />
+	<script type="text/javascript" src="engine1/jquery.js"></script>
+</head>
+
+<body>
+	<section class="seccionToggle">
+		<div class="wrap">
+			<h2 style="margin-bottom: 1px;">Instituto de Tecnologia</h2>
+			<p>Juan Pablo Perez Alfonso</p>
+			<button id="gestion" style="background-image:url(images/boton.png)">Gestionar Trabajos de Grado</button>
+			<br />
+			<button id="consultas" style="background-image:url(images/boton.png); margin-top: 20px;" >Consultas</button>
+			<button id="estudiante" style="background-image:url(images/boton.png)">Estudiante</button>
+			<button id="profesores" style="background-image:url(images/boton.png)">Profesores</button>
+
+			<p align="center"> <img src="images/pngtree-user-vector-avatar-png-image_1541962.png" width="200"
+					height="210"></p>
+		</div>
+	</section>
+
+	<a href="#" id="btn-toggle" class="btn-toggle">Abrir</a>
+
+	<div class="main">
+		<div class="wrap">
+			<div id="wowslider-container1">
+				<div class="ws_images"><ul>
+					<li><img src="data1/images/1.png" alt="1" title="1" id="wows1_0"/></li>
+					<li><img src="data1/images/2.png" alt="2" title="2" id="wows1_1"/></li>
+					<li><img src="data1/images/3.png" alt="3" title="3" id="wows1_2"/></li>
+					<li><img src="data1/images/4.png" alt="html5 slider" title="4" id="wows1_3"/></a></li>
+					<li><img src="data1/images/5.jpg" alt="5" title="5" id="wows1_4"/></li>
+				</ul></div>
+			<div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.net">css image slider</a> by WOWSlider.com v8.8</div>
+				<div class="ws_shadow"></div>
+				</div>	
+			<article>
+				<p align="center">Bienvenido a la comunidad Estudiantil del Instituto </p>
+				<p align="center">Univeristario de Tecnologia Juan Pablo Perez Alfonso </p>
+			</article>
+			<article>
+				
+				<p align="center"> <img src="images/logo_bienvenida.png" width="178" height="230"></p>
+			</article>
+		</div>
+	</div>
+	<script>
+		$('#gestion').on('click', function () {
+			window.location = 'login.php';
+		})
+		$('#consultas').on('click', function () {
+			window.location = 'index.php';
+		})  
+		$('#estudiante').on('click', function () {
+			window.location = 'informatica.php';
+		}) 
+		$('#profesores').on('click', function () {
+			window.location = 'profesor.php';
+		})      
+	</script>
+
+	<script src="js/seccion.js"></script>
+	<script type="text/javascript" src="engine1/wowslider.js"></script>
+	<script type="text/javascript" src="engine1/script.js"></script>
+</body>
+
+</html>

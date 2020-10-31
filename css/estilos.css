@@ -1,0 +1,110 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+body {
+	background: #505050;
+	color: white;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+  color: white;
+  text-decoration: none; }
+  a:hover {
+    text-decoration: underline; }
+
+.wrap {
+	width: 90%;
+	max-width: 1000px;
+	margin: auto;
+	font-size: 24px;
+	text-align: center;
+}
+
+.main {
+  width: 100%;
+  min-height: 1500px; 
+  margin-top: 20px;
+ 
+}
+.seccionToggle {
+  display: none;
+  height: calc(100vh - 50px);
+  background:url(../images/fondo%20toggle.png);
+  color: #001F3F;
+  padding: 10px 0;
+  text-align: center; }
+  .seccionToggle h2 {
+	font-size: 60px;
+	margin-top: 10px;
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: center;
+}
+  .seccionToggle p {
+	font-size: 20px;
+	margin-bottom: 30px;
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: center;
+}
+  .seccionToggle button {
+	background: none;
+	font-size: 20px;
+	font-weight: bold;
+	padding: 20px 40px;
+	display: inline-block;
+	border: 5px solid #001F3F;
+	transition: 0.3s all ease;
+}
+    .seccionToggle button:hover {
+	border: 5px solid #0074D9;
+	color: #0074D9;
+	font-family: inherit;
+	text-align: center;
+}
+
+.btn-toggle {
+	height: 50px;
+	line-height: 50px;
+	font-size: 24px;
+	font-weight: bold;
+	color: #000;
+	display: block;
+	background: #809FF9;
+	text-align: center;
+}
+  .btn-toggle:hover {
+	text-decoration: none;
+	font-family: "Arial Black", Gadget, sans-serif;
+	font-weight: normal;
+	color: #fefefe;
+}
+
+@media screen and (max-width: 500px) {
+  .seccionToggle h2 {
+    margin-top: 0; } }
+@media screen and (max-height: 550px) {
+  .seccionToggle h2 {
+    font-size: 40px;
+    margin-top: 0; } }
+
+/*# sourceMappingURL=estilos.css.map */
+
+
+
+
+}
+.main .wrap article p {
+	font-family: Tahoma, Geneva, sans-serif;
+}
+
+y {
+	font-style: italic;
+}
+
+
+}
+.main .wrap article q {
+	text-align: justify;
+}
